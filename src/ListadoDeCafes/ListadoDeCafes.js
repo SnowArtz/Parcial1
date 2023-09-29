@@ -11,8 +11,8 @@ function ListadoDeCafes() {
     ];
 
     return (
-        <div>
-            <table>
+        <div className="container mt-5">
+            <table className="table">
                 <thead>
                     <tr>
                         <th>Nombre</th>
