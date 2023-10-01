@@ -1,0 +1,15 @@
+{
+  "Inicio_de_sesion": "Inicio de sesión",
+  "Nombre_de_usuario": "Nombre de usuario",
+  "Contraseña": "Contraseña",
+  "Ingresar": "Ingresar",
+  "Cancelar": "Cancelar",
+  "Error": "Error de autenticación. Revise sus credenciales.",
+  "Error_2": "Ha ocurrido un error con el servidor. Por favor, inténtelo de nuevo más tarde.",
+  "Nombre": "Nombre",
+  "Tipo": "Tipo",
+  "Region": "Región",
+  "Notas": "Notas",
+  "Cultivado": "Cultivado a una altura de ",
+  "msnm": "msnm"
+}

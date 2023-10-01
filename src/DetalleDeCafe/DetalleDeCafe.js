@@ -1,15 +1,30 @@
-import React from 'react';
+import React from "react";
+import "./DetalleDeCafe.css";
+import { FormattedMessage, FormattedDate } from "react-intl";
 
-function DetalleDeCafe({ cafe }) {
-  if(!cafe) return <></>;
+function DetalleDeCafe({ cafe }, { locale }) {
+  if (!cafe) return <></>;
 
   return (
-    <div>
+    <div className="detalle-de-cafe">
       <h2>{cafe.nombre}</h2>
-      <p>Fecha de cultivo: {cafe.fechaDeCultivo}</p>
+      <p className="fecha-de-cultivo">
+        <FormattedDate
+          value={new Date(cafe.fecha_cultivo)}
+          year="numeric"
+          month="2-digit"
+          day="numeric"
+        />
+      </p>
       <img src={cafe.imagen} alt={cafe.nombre} />
-      <p>Notas: {cafe.notas}</p>
-      <p>Altura del cultivo: {cafe.altura}m</p>
+      <p className="notas">
+        <FormattedMessage id="Notas" /> {<br />} {cafe.notas}
+      </p>
+      <p className="altura">
+        <FormattedMessage id="Cultivado" />
+        {<br />}
+        {cafe.altura} <FormattedMessage id="msnm" />
+      </p>
     </div>
   );
 }

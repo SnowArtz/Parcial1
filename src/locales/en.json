@@ -1,0 +1,15 @@
+{
+  "Inicio_de_sesion": "Login",
+  "Nombre_de_usuario": "Username",
+  "Contraseña": "Password",
+  "Ingresar": "Login",
+  "Cancelar": "Cancel",
+  "Error": "Authentication error. Please check your credentials.",
+  "Error_2": "An error has occurred with the server. Please try again later.",
+  "Nombre": "Name",
+  "Tipo": "Type",
+  "Region": "Region",
+  "Notas": "Notes",
+  "Cultivado": "Grown at a height of ",
+  "msnm": "masl"
+}

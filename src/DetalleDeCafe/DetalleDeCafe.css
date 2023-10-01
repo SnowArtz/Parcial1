@@ -1,0 +1,46 @@
+
+/* Contenedor externo */
+.detalle-de-cafe {
+    border: 1px solid black;
+    background-color: rgba(224, 187, 187, 0.2); /* E0BBBB con 20% de transparencia */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+  
+  /* Título del café */
+  .detalle-de-cafe h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  }
+  
+  /* Fecha de cultivo */
+  .detalle-de-cafe p.fecha-de-cultivo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 14px;
+  }
+  
+  /* Imagen del café */
+  .detalle-de-cafe img {
+    width: 35%; /* Ocupa el 35% del ancho del contenedor */
+  }
+  
+  /* Notas del café */
+  .detalle-de-cafe p.notas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  /* Altura del café */
+  .detalle-de-cafe p.altura {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@400&display=swap");
+
+.container {
+  width: 86%;
+  margin-top: 10px;
+}
+
+.container h1,
+.login-title-container,
+.form-container label,
+.form-container input,
+.form-container button {
+  font-family: "Inter", sans-serif;
+}
+
+.container h1 {
+  font-size: 38px;
+  font-family: "Indie Flower";
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.divider,
+.form-container {
+  margin: 10px 0;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.login-container,
+.form-container-content {
+  width: 60%;
+  margin: auto;
+}
+
+.login-title-container,
+.form-container label {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-container {
+  border: 1px solid #000;
+  background-color: #f9f1f1;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-container input,
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 18px;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.form-container button {
+  width: 46%;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container button:first-child {
+  background-color: #8fa98f;
+}
+
+.form-container button:last-child {
+  background-color: #e75d5d;
+}
+
+.contact-info {
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
